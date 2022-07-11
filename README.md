@@ -3,4 +3,5 @@
 🥴 구현
 ||문제출처|풀이|
 |------|---|---|
-|1|[별 찍기 - 8](https://www.acmicpc.net/problem/2445)|[별 찍기 - 8](https://github.com/1two13/Baekjoon-Algorithm/commit/0183c455f4593b3c22f74c8b1586a8ee1e176207#diff-6a1d37ddbebc7ca17c90dafb69b64dd1cd154d3d6a76987c052de6bc583bf3f7)|
+|1|[별 찍기 - 8](https://www.acmicpc.net/problem/2445)|[별 찍기-8.js](https://github.com/1two13/Baekjoon-Algorithm/commit/0183c455f4593b3c22f74c8b1586a8ee1e176207#diff-6a1d37ddbebc7ca17c90dafb69b64dd1cd154d3d6a76987c052de6bc583bf3f7)|
+|1|[별 찍기 - 9](https://www.acmicpc.net/problem/2446)|[별 찍기-9.js](https://github.com/1two13/Baekjoon-Algorithm/commit/ee5b96ec64a5f440546003554a83a5c34722fb29)|
