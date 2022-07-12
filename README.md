@@ -7,3 +7,4 @@
 |2|[별 찍기 - 9](https://www.acmicpc.net/problem/2446)|[별 찍기-9.js](https://github.com/1two13/Baekjoon-Algorithm/commit/ee5b96ec64a5f440546003554a83a5c34722fb29)|
 |3|[OX퀴즈](https://www.acmicpc.net/problem/8958)|[OX퀴즈.js](https://github.com/1two13/Baekjoon-Algorithm/commit/cbec3c16302172ca51f1a177ef96ddc20836c70f)|
 |4|[문자열 반복](https://www.acmicpc.net/problem/2675)|[문자열 반복.js](https://github.com/1two13/Baekjoon-Algorithm/commit/1259a2b74081c7a3f4258ef073c13f383d3633ab)|
+|5|[나는 요리사다](https://www.acmicpc.net/problem/2953)|[나는 요리사다.js](https://github.com/1two13/Baekjoon-Algorithm/commit/64b778d8eb1cc892b8abb9c8607a58c3d69fa92d)|
