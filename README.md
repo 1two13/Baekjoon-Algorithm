@@ -8,3 +8,4 @@
 |3|[OX퀴즈](https://www.acmicpc.net/problem/8958)|[OX퀴즈.js](https://github.com/1two13/Baekjoon-Algorithm/commit/cbec3c16302172ca51f1a177ef96ddc20836c70f)|
 |4|[문자열 반복](https://www.acmicpc.net/problem/2675)|[문자열 반복.js](https://github.com/1two13/Baekjoon-Algorithm/commit/1259a2b74081c7a3f4258ef073c13f383d3633ab)|
 |5|[나는 요리사다](https://www.acmicpc.net/problem/2953)|[나는 요리사다.js](https://github.com/1two13/Baekjoon-Algorithm/commit/64b778d8eb1cc892b8abb9c8607a58c3d69fa92d)|
+|6|[숫자의 개수](https://www.acmicpc.net/problem/2577)|[숫자의 개수.js](https://github.com/1two13/Baekjoon-Algorithm/commit/215caf05b4f3957ee1efe64f5faa7a9b86fa094c)|
