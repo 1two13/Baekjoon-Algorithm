@@ -11,3 +11,4 @@
 |6|[숫자의 개수](https://www.acmicpc.net/problem/2577)|[숫자의 개수.js](https://github.com/1two13/Baekjoon-Algorithm/commit/215caf05b4f3957ee1efe64f5faa7a9b86fa094c)|
 |7|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|[단어 뒤집기 2.js](https://github.com/1two13/Baekjoon-Algorithm/commit/7bccf18c946decdecf5e78bf0ff531b6013f0e2a)|
 |8|[단어 뒤집기](https://www.acmicpc.net/problem/9093)|[단어 뒤집기.js](https://github.com/1two13/Baekjoon-Algorithm/commit/90421504ee0e01d0610fc851769be2853ac7ddec)|
+|9|[파티가 끝나고 난 뒤](https://www.acmicpc.net/problem/2845)|[파티가 끝나고 난 뒤.js](https://github.com/1two13/Baekjoon-Algorithm/commit/208e9309ba57d15826697ba8b8f3da837e10db45)|
