@@ -7,50 +7,73 @@
 */
 
 const fs = require("fs");
-// const file = "/dev/stdin";
-const file = "../input.txt";
+const file = "/dev/stdin";
+// const file = "../input.txt";
 
 function main() {
   const input = fs.readFileSync(file).toString().split("");
   // console.log(input); // 배열 안에 문자열을 하나씩 담아뒀음
   let stack = [];
   let queue = [];
-  let isOpen = false;
+  let isOpen = false; // >인 경우 false, <인 경우 true
   let answer = "";
 
-  for (let i = 0; i <= input.length; i++) {
-    console.log(input[i]);
-    // input[i] 가 "<" 일 때
+  // input.length 만큼 반복문으로 돌면서
+  for (let i = 0; i < input.length; i++) {
+    // input[i]가 <인 경우
+    // stack에 push
     if (input[i] === "<") {
+      stack.push(input[i]);
       isOpen = true;
-      if (stack.length > 0) {
-        answer += stack.reverse().join("");
-        // stack 리셋
-        stack = [];
-      }
-      // input[i] 가 ">" 일 때
-    } else if (input[i] === ">") {
-      isOpen = false;
-      answer += queue.join("") + input[i];
-      // queue 리셋
-      queue = [];
-      continue;
-      // < > 외의 문자열 중에서 공백이 있거나 undefined인 경우
-    } else if ((input[i] === " " && !isOpen) || input[i] === undefined) {
-      answer +=
-        stack.reverse().join("").trim() + (input[i] === " " ? input[i] : "");
-      stack = [];
-      continue;
     }
 
-    if (isOpen) {
-      queue.push(input[i]);
-    } else if (!isOpen) {
+    // input[i]가 >인 경우
+    if (input[i] === ">") {
       stack.push(input[i]);
+      isOpen = false;
+      answer += stack.join("").trim();
+      stack = [];
+    }
+
+    // isOpen이 true인 경우 stack에 push
+    if (isOpen === true && input[i] !== "<") {
+      stack.push(input[i]);
+    }
+
+    // < > 안의 문자열이 아닌 경우 queue에 unshift
+    if (
+      input[i] !== " " &&
+      input[i] !== "<" &&
+      isOpen === false &&
+      input[i] !== ">"
+    ) {
+      queue.unshift(input[i]);
+      // console.log(queue);
+    }
+
+    if (
+      input[i] === " " &&
+      input[i] !== "<" &&
+      isOpen === false &&
+      input[i] !== ">"
+    ) {
+      answer += queue.join("").trim() + input[i];
+      queue = [];
+    }
+
+    if (
+      input[i + 1] === "<" &&
+      input[i] !== "<" &&
+      isOpen === false &&
+      input[i] !== ">"
+    ) {
+      answer += queue.join("").trim();
+      queue = [];
     }
   }
 
-  console.log(answer);
+  answer += queue.join("").trim();
+  console.log(answer.trim());
 }
 
 main();
