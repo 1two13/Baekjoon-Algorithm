@@ -12,3 +12,4 @@
 |7|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|[단어 뒤집기 2.js](https://github.com/1two13/Baekjoon-Algorithm/commit/91771485acffe1c142953423324b19605833ce6a)|
 |8|[단어 뒤집기](https://www.acmicpc.net/problem/9093)|[단어 뒤집기.js](https://github.com/1two13/Baekjoon-Algorithm/commit/90421504ee0e01d0610fc851769be2853ac7ddec)|
 |9|[파티가 끝나고 난 뒤](https://www.acmicpc.net/problem/2845)|[파티가 끝나고 난 뒤.js](https://github.com/1two13/Baekjoon-Algorithm/commit/208e9309ba57d15826697ba8b8f3da837e10db45)|
+|10|[성 지키기](https://www.acmicpc.net/problem/1236)|[성 지키기.js](https://github.com/1two13/Baekjoon-Algorithm/commit/f5008e3370665dc114f8b0ae4b4d67750058f0b8)|
